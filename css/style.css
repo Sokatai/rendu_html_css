@@ -1,0 +1,21 @@
+@import "./pages/apropos.css";
+@import "./pages/futur.css";
+@import "./pages/home.css";
+@import "./pages/origines.css";
+@import "./template-parts/nav.css";
+@import "./var/var.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-weight: 200;
+    background-color: var(--color-darkblue);
+}
+
+body .container {
+    display: flex;
+    width: 100%;
+}
+
